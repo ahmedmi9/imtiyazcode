@@ -1,0 +1,42 @@
+{
+  "name": "imtiyaz-code",
+  "description": "",
+  "version": "1.0.1",
+  "author": "Md Imtiyaz Ahmed<ahmedmdimtiyaz@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.145",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-google-analytics": "^1.0.12",
+    "gatsby-plugin-google-fonts": "0.0.3",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.14",
+    "gatsby-plugin-sharp": "^3.3.0",
+    "gatsby-plugin-typography": "1.7.10",
+    "gatsby-remark-copy-linked-files": "^1.5.9",
+    "gatsby-remark-images": "^5.0.0",
+    "gatsby-source-filesystem": "^1.5.8",
+    "gatsby-transformer-remark": "^1.7.21",
+    "gatsby-transformer-sharp": "^1.6.14",
+    "node-sass": "^4.9.4",
+    "react-icons": "2.2.7",
+    "react-slick": "0.16.0",
+    "slick-carousel": "1.8.1",
+    "typography-theme-bootstrap": "0.16.7"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b main"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "prettier": "^1.9.2"
+  }
+}
